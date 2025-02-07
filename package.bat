@@ -1,0 +1,1 @@
+vsce package --no-yarn -o EmmyLuaDebugger_mercury.vsix -t win32-x64
