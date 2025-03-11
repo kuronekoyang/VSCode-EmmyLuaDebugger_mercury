@@ -39,7 +39,7 @@ async function build() {
     await decompress('temp/darwin-arm64.zip', 'debugger/emmy/mac/arm64/');
     // win
     await decompress('temp/win32-x86.zip', 'debugger/emmy/windows/x86/');
-    await decompress('temp/win32-x64.zip', 'debugger/emmy/windows/x64/');
+    //await decompress('temp/win32-x64.zip', 'debugger/emmy/windows/x64/');
 
     // new ls
     if (args[2].endsWith('.tar.gz')) {
